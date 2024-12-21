@@ -1,0 +1,33 @@
+{
+  "name": "gulp-ren",
+  "version": "0.0.1",
+  "description": "Gulp plugin for rename files",
+  "license": "MIT",
+  "author": "llcawc",
+  "homepage": "https://github.com/llcawc",
+  "type": "module",
+  "main": "./gulp-ren.js",
+  "exports": "./gulp-ren.js",
+  "scripts": {
+    "tsc": "tsc -p ./tsconfig.json",
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "through2": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/through2": "^2.0.41",
+    "cssnano": "^7.0.6",
+    "gulp": "^5.0.0",
+    "gulp-postcss": "^10.0.0",
+    "del": "^8.0.0",
+    "typescript": "^5.7.2"
+  },
+  "browserslist": [
+    ">= 0.5%",
+    "last 2 major versions",
+    "not dead"
+  ]
+}
