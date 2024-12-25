@@ -1,6 +1,6 @@
 # rename files
 
-gulp-ren • v0.0.1 • 2024.12.20
+gulp-ren • v0.0.2 • 2024.12.25
 
 Replacing the gulp plugin "gulp-rename"
 

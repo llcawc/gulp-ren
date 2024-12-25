@@ -24,7 +24,7 @@ let paths = {
 function styles() {
   return src(paths.styles.src)
     .pipe(postcss([cssnano({ preset: 'default', comments: false })]))
-    .pipe(rename({ suffix: '.min', extname: '.css' }))
+    .pipe(rename({ basename: 'main', suffix: '.min', extname: '.css' }))
     .pipe(dest(paths.styles.dest))
 }
 
